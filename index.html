@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Uni Freshers</title>
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/customSelect.css"/>
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/jquery-ui-1.css" />
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/universities.js"></script>
+	<script src="js/courses.js"></script>
+	<script src="js/countries.js"></script>
+	<script src="js/customSelect.js"></script>
+  </head>
+  <body>
+    <div class="content">
+      <form class="find-other-freshers-form clearfix">
+        <div class="table-row">
+          <div class="left-column">
+            <span>I'm gonna study</span>
+          </div>
+          <div class="right-column">
+            <input id="input-name-of-master-courses" class="input-name-of-master-courses" type="text" placeholder="the course name i.e MSc Marketing" />
+          </div>
+        </div>
+        <div class="table-row">
+          <div class="left-column">
+            <span>at</span>
+          </div>
+          <div class="right-column">
+            <input id="input-name-of-universities" class="input-name-of-universities" type="text" placeholder="the name of the Uni" />  
+          </div>
+        </div>
+        <div class="table-row years-of-study">
+          <div class="left-column">
+            <span>starting in</span>
+          </div>
+          <div class="right-column">
+            <div class="dropdown-group">
+              <select class="select-years-of-study" data-select-custom>
+    				    <option value="">&nbsp;</option>
+    				    <option value="2014_2015">2014/2015</option>
+    				    <option value="2015">2015</option>
+    				    <option value="2015_2016">2015/2016</option>
+    			      <option value="2016">2016</option>
+    			    </select>
+            </div>
+            <span>year</span>
+          </div>
+        </div>
+        <div class="table-row">
+            <div class="left-column">
+              with freshers from
+            </div>
+            <div class="right-column">
+              <input type="text" id="input-countries" class="input-countries" value="All Countries"/>
+            </div>
+        </div>
+        <div class="table-row">
+          <div class="left-column"><!--c--></div>
+          <div class="right-column">
+            <input type="submit" class="btn btn-default" value="Show"/>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
